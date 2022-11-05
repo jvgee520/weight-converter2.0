@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Special+Elite&display=swap');
+
+body {
+    background: linear-gradient(to right, #131a22, #232f3e);
+    color: #ff9900;
+    font-family: 'Audiowide', cursive;
+}
+
+#output {
+    font-size: 13px;
+}
+
+span {
+    color: red;
+    white-space: nowrap;
+    font-size: 13px;
+}
+
+.wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, .5);
+    border-radius: 15px;
+    border: solid 3px;
+    padding: 50px;
+    box-shadow: #f0b865;
+}
+
+.title {
+    font-size: 25px;
+    font-weight: 900;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid #ff9900;
+    outline: none;
+    background: transparent;
+    color: #ff9900;
+    cursor: pointer;
+    margin-left: 17%;
+    text-align: center;
+    font-size: 20px;
+}
+
+.mass {
+    margin-left: 9%;
+}
+select {
+    outline: none;
+    background: transparent;
+    color: #ff9900;
+    border: solid 2px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button {
+    color: black;
+    padding: 10px;
+    background: #ff9900;
+    border: solid 2px red;
+    padding: 10px;
+    cursor: pointer;
+    margin-left: 30%;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+.ans {
+    border: none;
+    border-bottom: 1px solid #ff9900;
+    outline: none;
+    background: transparent;
+    color: #ff9900;
+    cursor: pointer;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 30px;
+}

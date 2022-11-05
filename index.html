@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Grams|Converter2.0</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+    <div class="wrapper">
+        <p class="title">ENTER A VALUE IN GRAMS</p>
+        <input type="text" id="grams"><br>
+        <span id="error"></span>
+
+        <p class="mass">CONVERT WEIGHT :
+            <select id="type">
+                <option value="#">- SELECT -</option>
+                <option value="kilogram">KILOGRAM</option>
+                <option value="milligram">MILLIGRAM</option>
+                <option value="microgram">MICROGRAM</option>
+                <option value="pound">POUND</option>
+                <option value="ounce">OUNCE</option>
+                <option value="stone">STONE</option>
+                <option value="imperialTon">IMPERIAL TON</option>
+                <option value="usTon">US TON</option>
+            </select>
+        </p>
+
+        <button id="btn">CLICK TO CONVERT</button>
+        <p class="ans" id="output">CONVERSION</p>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
